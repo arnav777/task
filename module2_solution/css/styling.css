@@ -1,1 +1,96 @@
+h1{
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 40px;
+}
 
+section{
+	
+	background: gray;
+	width: 30%;
+	/*height: 50px;*/
+	border: 4px solid black;
+	float: left;
+	padding: 0 0 0 10px;			
+}
+h2{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+#ch{
+	margin: 0 0 0 65%;
+	text-align: center;
+	border: 2px solid black;	
+	background-color: pink;
+}
+#pr{
+	margin: 0 0 0 65%;
+	text-align: center;
+	border: 2px solid black;
+	/*width: 20%;*/
+	background-color: red;
+}
+
+#su{
+	margin: 0 0 0 65%;
+	text-align: center;
+	border: 2px solid black;
+	/*width: 30%;*/
+	background-color: yellow;
+}
+section{
+	margin-right: 15px;
+	margin-bottom: 10px;
+
+}
+
+@media(min-width: 992px){
+	#second{
+		float: left;
+	}
+	#third{
+		float: left;
+	}
+
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	#third{
+		float: none;
+		width: 100%;	
+		clear: left;
+
+	}
+	#su{
+	margin: 0 0 0 85%;}
+}
+
+@media(max-width: 767px){
+	#first{
+		width: 100%;
+		margin-right: 10px;
+	}
+	#second{
+		float: none;
+		width: 100%;
+		clear: left;
+		margin-right: 10px;
+
+	}
+	#third{
+		float: none;
+		width: 100%;
+		margin-right: 10px;
+		clear: left;
+	}
+	#ch{
+		font-size: 20px;
+	margin: 0 0 0 85%;}
+	#pr{
+	margin: 0 0 0 85%;}
+	#su{
+	margin: 0 0 0 85%;}
+
+}
